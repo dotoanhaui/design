@@ -1,0 +1,121 @@
+body {
+    overflow-x: hidden;
+    word-break: break-word;
+}
+body {
+    background: #ffffff;
+}
+body {
+    font-size: 12px;
+    color: #2f2f33;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    line-height: 1.7;
+    font-family: "Poppins", sans-serif;
+    color: #2f2f33;
+}
+a{
+    color: black;
+}
+.full-header .header{
+    box-shadow: 1px 1px 5px #ccc;
+    margin-bottom: 10px;
+}
+.full-header .header .row{
+    display: flex;
+    align-items: center;
+}
+.full-header .header-top img{
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+}
+.full-header .header .logo{
+    font-weight: normal;
+    font-size: 34px;
+}
+.full-header .menu-bar ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+.full-header .menu-bar ul li{
+    padding-left: 5px;
+    font-size: 13px;
+    padding-right: 5px;
+    line-height: 50px;
+    height: 50px;
+    font-weight: 700;
+}
+.full-header .header-cart .search{
+    position: relative;
+    left: -15px;
+}
+.full-header .header-cart .search button{
+    position: absolute;
+    top: 3px;
+    left: 30px;
+    font-size: 15px;
+    border: none;
+    background: transparent;
+}
+.header .header-cart .search input{
+    text-indent: 41px;
+    margin-top: 7px;
+    border: none;
+    width: 103px;
+}
+.header .header-cart .login{
+    padding: 0;
+    left: 35px;
+}
+.header .header-cart .icon-cart{
+    left: 20px;
+    font-size: 17px;
+    top: 4px;
+}
+.header .header-cart .icon-heart{
+    font-size: 17px;
+    top: 5px;
+}
+.breadcrumb{
+    background: white;
+}
+.content .tittle{
+    text-align: center;
+}
+.content .tittle h1{
+    font-weight: 700;
+}
+.content .sidebar .sidebar-item .title-sidebar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+.content .sidebar .sidebar-item .title-sidebar h5{
+    font-weight: 700;
+}
+.content .sidebar .sidebar-item .content-sidebar ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.content .sidebar .sidebar-item .content-sidebar ul li{
+    height: 30px;
+    line-height: 30px;
+}
+.sidebar-item .content-sidebar ul li span{
+    color: lightgrey;
+}
+.content .sidebar .sidebar-item .content-sidebar.size ul{
+    display: flex;
+    flex-flow: column;
+    padding-top: 10px;
+}
+.sidebar-item .content-sidebar.size ul label{
+    display: flex;
+}

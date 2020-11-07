@@ -13,7 +13,7 @@ html, body {
     padding: 0;
     margin: 0;
     line-height: 1.7;
-    font-family: "Poppins", sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     color: #2f2f33;
 }
 a{
@@ -28,7 +28,7 @@ a{
     align-items: center;
 }
 .full-header .header-top img{
-    height: 100px;
+    height: 100%;
     width: 100%;
     object-fit: cover;
 }
@@ -84,6 +84,7 @@ a{
 }
 .breadcrumb{
     background: white;
+    margin-bottom: 0px !important;
 }
 .content .tittle{
     text-align: center;
@@ -118,4 +119,17 @@ a{
 }
 .sidebar-item .content-sidebar.size ul label{
     display: flex;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.content .tittle{
+    margin-bottom: 20px;
+}
+.content{
+    border-bottom: 1px solid lightgrey;
+}
+.footer{
+    margin-top: 100px;
 }

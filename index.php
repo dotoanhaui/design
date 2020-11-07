@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap-3.3.5.min.css">
     <link rel="stylesheet" href="fontAwesome/font-awesome-5.12.0.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/iwish.css">
 </head>
 <body>
 <header class="full-header">
@@ -135,6 +136,47 @@
                             <li><a href="#">Summer Editor</a></li>
                         </ul>
                     </div>
+                </div>
+            </div>
+            <div class="products-view col-lg-9 col-md-9 col-sm-12">
+                <div class="row">
+                    <?php for($i = 1; $i<=15; $i++) {?>
+                        <div class="product-col col-lg-4 col-md-4 col-sm-6">
+                            <div class="item_product_main margin-bottom-40 custom-product-item">
+                                <div class="product-box product-item-main pos-r">
+                                    <a data-title="Yêu thích"
+                                       class="iWishAdd iwishAddWrapper pos-a no-bg no-border cl-929292 hv-cl-fdb913"
+                                       data-id="9159900">
+                                        <i class="far fa-heart" aria-hidden="true"></i>
+                                    </a>
+                                    <a data-title="Bỏ yêu thích"
+                                       class="iWishAdded iwishAddWrapper iWishHidden pos-a no-bg no-border cl-fdb913"
+                                       data-id="9159900">
+                                        <i class="far fa-heart" aria-hidden="true"></i>
+                                    </a>
+                                    <div class="product-thumbnail">
+                                        <a class="image_thumb" href="/v534vay-voan-hong-hoa-p9159900.html"
+                                           title="V534-Váy Voan Hồng Hoa">
+                                            <div class="aspect ratio1by1">
+                                                <img data-sizes="auto"
+                                                     src="https://bucket.nhanh.vn/store/15113/ps/20180923/v534_thumb_600x600.jpg"
+                                                     data-src="https://bucket.nhanh.vn/store/15113/ps/20180923/v534_thumb_600x600.jpg"
+                                                     class="imageChange lazyload" alt="V534-Váy Voan Hồng Hoa"></div>
+                                        </a></div>
+                                    <div class="product-info product-bottom pos-r"><h3 class="product-name tac">
+                                            <a href="/v534vay-voan-hong-hoa-p9159900.html"
+                                               title="V534-Váy Voan Hồng Hoa"
+                                               class="cl-000 fs-14 hv-cl-fdb913">V534-Váy Voan Hồng Hoa</a></h3>
+                                        <div class="product-item-price price-box tac">
+<span class="special-price">
+<span class="price product-price fw-semibold cl-000 fs-16">165,000VNĐ</span>
+<del class="price product-price-old">300,000 VNĐ</del>
+</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php }?>
                 </div>
             </div>
         </div>
